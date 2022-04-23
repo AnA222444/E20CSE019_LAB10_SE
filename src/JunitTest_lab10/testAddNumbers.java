@@ -10,8 +10,8 @@ class testAddNumbers {
 	@Test
 	void test() {
 		junitfunctions junit=new junitfunctions();
-		int res=junit.addnum(1,400);
-		assertEquals(500,res);
+		int res=junit.addnum(1,4);
+		assertEquals(5,res);
 	}
 
 }
